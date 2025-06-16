@@ -155,32 +155,13 @@
       );
     }
 
-    function ProductVideo() {
-      return (
-        <section className="py-16 bg-gray-100">
-          <div className="container mx-auto px-4 text-center">
-            <h2 className="text-4xl font-semibold mb-6">Watch the DandiBot in Action</h2>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/YC8a3QDakC4?si=fWjyyUpdP9UTNq75"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="mx-auto max-w-xl rounded-lg shadow-md"
-            ></iframe>
-          </div>
-        </section>
-      );
-    }
-
     function AdvertisementFlyer() {
       return (
         <section id="ad" className="py-16 bg-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-semibold mb-6">Our Advertisement Flyer</h2>
-            <div className="hover-scale max-w-3xl mx-auto">
-              <img src="Advertisement.jpg" alt="GreenGears Advertisement Flyer" className="mx-auto max-h-96 rounded-lg shadow-lg" />
+            <div className="hover-scale mx-auto">
+              <img src="Advertisement.jpg" alt="GreenGears Advertisement Flyer" className="mx-auto max-h-[50vh] rounded-lg shadow-lg" />
             </div>
             <p className="text-lg text-gray-700 mt-4 max-w-xl mx-auto">
               Check out our latest flyer showcasing how DandiBot helps you reclaim your weekends with a serene, dandelion-free backyard.
@@ -254,7 +235,6 @@
           <CompanyOverview />
           <ValueProposition />
           <ProductRendering />
-          <ProductVideo />
           <AdvertisementFlyer />
           <TargetAudience />
           <MarketingStrategies />
