@@ -45,6 +45,33 @@
       padding-left: 3rem;
       color: #333;
     }
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .product-layout {
+        flex-direction: column;
+        min-height: auto;
+        padding: 1rem;
+      }
+      .product-image {
+        margin-left: 0;
+        margin-bottom: 1rem;
+      }
+      .product-image img {
+        max-height: 50vh;
+        width: 100%;
+        object-fit: contain;
+      }
+      .product-text {
+        padding-left: 0;
+        text-align: center;
+      }
+      .product-text h2 {
+        font-size: 1.5rem;
+      }
+      .product-text p {
+        font-size: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
