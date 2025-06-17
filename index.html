@@ -148,7 +148,10 @@
           <div className="product-text">
             <h2 className="text-4xl font-semibold mb-6">Meet the DandiBot</h2>
             <p className="text-lg mt-4 max-w-xl">
-              DandiBot is the first product in the GreenGears toolbox. It is a compact, solar-recharging lawn robot designed to automatically detect and remove dandelions from your yard. Using computer vision and a mechanical weeding system, it identifies each weed, removes it at the root, and refills the hole with grass seed, all without chemicals or manual effort. The robot operates autonomously, navigating your lawn with ease and returning to its charging station when needed. Whether you care about sustainability, saving time, or just want a pristine lawn without the hassle, DandiBot offers a quiet, intelligent solution that works while you relax.
+              DandiBot is the first product in the GreenGears toolbox. It is a compact, solar-recharging lawn robot designed to automatically detect and remove dandelions from your yard. Using computer vision and a mechanical weeding system, it identifies each weed, removes it at the root, and refills the hole with grass seed, all without chemicals or manual effort.
+            </p>
+            <p className="text-lg mt-4 max-w-xl">
+              The robot operates autonomously, navigating your lawn with ease and returning to its charging station when needed. Whether you care about sustainability, saving time, or just want a pristine lawn without the hassle, DandiBot offers a quiet, intelligent solution that works while you relax.
             </p>
           </div>
         </section>
@@ -237,8 +240,34 @@
         <section className="py-20 gradient-bg text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-semibold mb-6">Reclaim Your Weekend</h2>
-            <p className="text-lg mb-6 max-w-xl mx-auto">Perfect your lawn effortlessly with DandiBot.</p>
-            <a href="https://greengears.com" className="bounce bg-yellow-400 text-green-900 px-8 py-4 rounded-full font-semibold hover:bg-yellow-500">Get Started Now</a>
+            <p className="text-lg mb-6 max-w-xl mx-auto">Perfect your lawn effortlessly with DandiBot. Schedule an appointment below.</p>
+            <form className="max-w-md mx-auto space-y-4">
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="w-full p-2 rounded-lg text-green-900"
+              />
+              <input
+                type="email"
+                placeholder="Your Email"
+                className="w-full p-2 rounded-lg text-green-900"
+              />
+              <input
+                type="tel"
+                placeholder="Your Phone Number"
+                className="w-full p-2 rounded-lg text-green-900"
+              />
+              <textarea
+                placeholder="Your Inquiries"
+                className="w-full p-2 rounded-lg text-green-900 h-24"
+              />
+              <button
+                type="submit"
+                className="bounce bg-yellow-400 text-green-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-500"
+              >
+                Submit Appointment Request
+              </button>
+            </form>
           </div>
         </section>
       );
